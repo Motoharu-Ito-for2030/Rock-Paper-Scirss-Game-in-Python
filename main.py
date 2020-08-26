@@ -1,29 +1,3 @@
-#1-2-6
-# import os
-# cwd = os.getcwd()
-# print(cwd)
-
-#1-2-7-1
-# import shutil
-# source_file_path = "C:\\Users\\sketd\\PycharmProjects\\pythonProject\\DSC01129.ARW.jpg"
-# target_file_path = "C:\\Users\\sketd\\PycharmProjects\\image folder\\my_image.jpg"
-# shutil.copy(source_file_path, target_file_path)
-
-
-#1-2-7-1
-# from PIL import Image
-# source_file_path = "C:\\Users\\sketd\\PycharmProjects\\pythonProject\\DSC01129.ARW.jpg"
-# im = Image.open(source_file_path)
-# img_resize = im.resize((100, 100))
-# target_file_path = "C:\\Users\\sketd\\PycharmProjects\\image_folder\\resizedImg.jpg"
-# img_resize.save(target_file_path)
-
-
-#1-2-7-2
-# import os
-# file_extension = os.path.splitext('C:\\Users\\sketd\\PycharmProjects\\image_folder\\resizedImg.jpg')[1]
-# print(file_extension)
-
 #Rock-paper-scirss
 import random
 
